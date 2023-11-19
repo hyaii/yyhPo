@@ -1,0 +1,27 @@
+/* 기본 세팅 */
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+}
+
+body{
+    width: 1920PX; margin: 0 auto;
+
+}
+
+.btn{display: block; width: 300px; padding: 30px; color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.311); position: absolute;
+    margin: 50px; border-radius: 50%; width: 100px; font-size: 30px; border-style: none;
+    z-index: 100; left: 100px;
+}
+
+.btn:hover {color: aliceblue; background-color: #333;}

@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 10680px;
+}
+h3, h2, p{
+    display: inline-block;
+    position: relative;
+}
+h3{
+    font-size: 32px;
+    font-weight: 750;
+    color: #005EDE;
+    top: 250px;
+}
+h2{
+    font-size: 48px;
+    font-weight: 750;
+    color: #123360;
+    text-align: right;
+}
+p{
+    font-size: 20px;
+    color: #00000080;
+    font-weight: 300;
+}
+.container, footer {
+    max-width: 1140px;
+    height: 1000px;
+    margin: auto;
+    position: relative;
+}
+.search, .ai, .cost, .review{
+    background-color: #EEF2F8;
+}
+/* 메뉴============================================================== */
+.top{
+    width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top h1{
+    width: 70px;
+    float: left;
+    margin-right: 100px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    z-index: 100;
+    }
+.top img{width: 100%;}
+
+.menu{
+    background-color: #ffffff;
+    width: 100%; height: 60px;
+    top: 0;
+    margin-top: 0;
+    position: fixed;
+    z-index: 10;
+    }
+
+
+/* .menu .top img{    padding-right: 1000px;  float: left; } */
+
+.right{
+    padding-left: 500px;
+    margin-top: 10px;
+    width: 40px;
+    float: right;
+    }
+
+.right p{color: #333; font-weight:400}
+.right i{margin-left: -30px; margin-top: 7px;
+    font-size: 20px; color: #333;}
+
+.right .menu_down a{cursor: pointer;}
+.menu_down{position: relative;}
+.menu_down .sub_menu{
+    display: none;
+    text-align: center;
+    background-color: #628ad54e;
+}
+
+.menu_down>li>.sub_menu>li:hover{ color: #000; font-weight: bold;}
+
+
+/* 이미지 슬라이드================================================ */
+#slide{width: 1920px; height: 1000px; overflow: hidden;}
+#slide_wrapper{width: 100%; height: 100px;}
+#slide_wrapper li {
+    position: relative;
+    width: 1920px; height: 1000px; background-color:rgba(0,0,0,.1); float: left;
+}
+
+
+
+/* 메인배너============================================================== */
+.main_con{
+    width: 1200px;
+    /* height: 1000px; */
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+.banner_text{
+    position: absolute;
+    display: block;
+    margin-top: -700px;
+    right: 10px;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: right;
+    font-weight: 550;
+    z-index: 100;
+}
+.banner_btn{
+    position: absolute;
+    float: right;
+    display: block;
+    right: 30%;
+    top: 70%;
+    /* margin-top: 100px;
+    margin-right: 225px; */
+    width: 280px; height: 60px;
+    color: aliceblue;
+    background-color: #079DBE;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+
+
+/* 1 banner======================================================= */
+.search {
+    height: 540px;
+    justify-content: center;
+    display: flex;
+}
+.search_text1{
+    padding-top: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+.loc{
+    position: relative;
+    padding-top: 40px;
+    width: 700px;
+    height: 60px;
+    margin:auto;
+}
+.loc_search{
+    border-radius: 20px;
+}
+.scd_search1{
+    border-radius: 20px 20px 0 0;
+}
+.scd_search2{
+    border-radius: 0 0 20px 20px;
+}
+input{
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    text-align: center;
+    border: none;
+}
+.scd{
+    position: relative;
+    padding-top: 20px;
+    width: 700px;
+    height: 60px;
+}
+i{
+    position: absolute;
+    margin: 15px 70px;
+}
+.search_btn{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 250px; height: 60px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* 2 video================================================ */
+video{
+    width: 970px;
+    padding-top: 160px;
+    display: block;
+    margin: 0 auto;
+}
+.video_text{
+    padding-top: 90px;
+    font-size: 33px;
+    font-weight: bold;
+    color: #123360;
+    text-align: center;
+}
+
+/* 3 ai================================================ */
+.ai_img1{
+    position: relative;
+    width: 400px;
+    left: 40px;
+    bottom: 60px;
+    z-index: 1;
+}
+.ai_img2{
+    position: absolute;
+    width: 380px;
+    bottom: 90px;
+    left: 760px;
+    z-index: 2;
+    box-shadow: -20px 10px 20px rgba(0, 0, 0, 0.38);
+    
+}
+.ai_text1, .ai_text2, .ai_text3{
+    display: inline-block;
+    position: relative;
+}
+.ai_text1{
+    font-size: 32px;
+    font-weight: 750;
+    color: #005EDE;
+    top: 250px;
+}
+.ai_text2{
+    font-size: 48px;
+    font-weight: 750;
+    color: #123360;
+    top: 350px;
+    text-align: right;
+}
+.ai_text3{
+    font-size: 20px;
+    color: #00000080;
+    bottom: 250px;
+    font-weight: 300;
+}
+
+/* 4 예약================================================ */
+.booking{
+    height: 1740px;
+}
+.booking2{
+    max-width: 1776px;
+    height: 100%;
+}
+.booking2::before{
+    content: "";
+    background-image: url(img/world.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.booking_img1, .booking_img2, .booking_img3, .booking_img4, .dash_left, .dash_right{
+    width: 400px;
+    position: relative;
+    display: inline-block;
+}
+.booking_img1{
+    top: 200px;
+    right: -100px;
+}
+.booking_img2{
+    float: left;
+    margin-left: 150px;
+}
+.booking_img3{
+    float: right;
+    margin-right: 150px;
+    top: 100px;
+}
+.booking_img4{
+    float: right;
+    top: 250px;
+    right: -400px;
+}
+.booking2 h3{
+    float: right;
+    margin-right: 150px;
+    top: 250px;
+}
+.booking h2{
+    top: -400px;
+    float: right;
+    margin-right: 150px;
+}
+.booking_p1{
+    float: left;
+    top: 350px;
+    left: 170px;
+    text-align: right;
+}
+.booking_p1, .booking_p3{
+    font-size: 28px;
+    font-weight: 500;
+}
+.booking_p2{
+    float: right;
+    left: 580px;
+    text-align: left;
+    top: -200px;
+}
+.booking_p3{
+    float: left;
+    top: 160px;
+    left: 160px;
+}
+.dash_left{
+    float: left;
+    width: 200px;
+    top: 450px;
+    left: 190px;
+    z-index: -1;
+}
+.dash_right{
+    float: left;
+    width: 200px;
+    top: 250px;
+    left: -50px;
+    z-index: -1;
+}
+
+/* 5 경비================================================ */
+.cost2{
+    max-width: 1776px;
+    height: 1000px;
+}
+.cost img{
+    width: 400px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    top: 120px;
+}
+.cost_img1{
+    margin-left: 50px;
+}
+.cost2 h3{
+    float: right;
+    margin-right: 75px;
+    top: 250px;
+}
+.cost h2{
+    top: 400px;
+    float: right;
+    left: 60px;
+    text-align: right;
+}
+.cost p{
+    float: right;
+    text-align: right;
+    top: 430px;
+    right: 70px;
+}
+
+/* 6 커뮤니티================================================ */
+.community2{
+    max-width: 1776px;
+    height: 1000px;
+}
+.community2::before{
+    content: "";
+    background-image: url(img/커뮤니티목업.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    position: absolute;
+    top: -130px;
+    left: 500px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.community2 h3{
+    float: left;
+    margin-left: 150px;
+    top: 250px;
+}
+.community h2{
+    top: 400px;
+    float: left;
+    left: -110px;
+    text-align: left;
+}
+.community p{
+    float: left;
+    text-align: left;
+    top: 600px;
+    right: 570px;
+}
+
+/* 7 리뷰================================================ */
+.review img{
+    width: 540px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    top: 120px;
+}
+.review h3{
+    float: right;
+    top: 250px;
+}
+.review h2{
+    top: 400px;
+    float: right;
+    left: 60px;
+    text-align: right;
+}
+.review p{
+    float: right;
+    text-align: right;
+    top: 430px;
+}
+
+/* 8 부가기능================================================ */
+.more{
+    text-align: center;
+}
+.more h2{
+    margin-top: 150px;
+}
+.more p{
+    margin-top: 30px;
+}
+.more button{
+    margin-top: 40px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.btn:hover{
+    background-color: #4c8d9b;
+    color: #ffffff;
+}
+.btn {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .btn-clicked {
+    background-color: #4c8d9b;
+    color: #ffffff;
+  }
+.more img{
+    width: 840px;
+}
+
+
+/* 9 다운로드 연결================================================ */
+.app{
+    background-color: #1d58a6;
+    height: 740px;
+    text-align: center;
+}
+.appimg{
+    width: 70px;
+    margin-top: 260px;
+}
+.downimg{
+    width: 20px;
+    margin-top:60px;
+}
+.app p{
+    margin-top: 30px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.app a{
+    background-color: #ffffff7a;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.gap {
+    margin-right: 40px; 
+  }
+
+footer{
+    height: 360px;
+}
+footer img{
+    width: 80px;
+    margin-top: 50px;
+}
+footer ul{
+    margin-top: 40px;
+}
+footer li{
+    float: left;
+    padding-right: 20px;
+    font-weight: 200;
+}
+footer button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    float: right;
+    margin-left: 20px;
+}
+address{
+    margin-top: 170px;
+    text-align: center;
+}
+
+  /* 버튼 업 */
+  .arrow-up{
+    position: fixed;
+    bottom: 60px; right: 50px;
+    width: 50px; height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(96, 99, 125, 0.563);
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.3s;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.arrow-up span{
+    font-size: 20px;
+    /* background-color: red; */
+}
+
+.arrow-up.show{
+    opacity: 0.5;
+}
+
+

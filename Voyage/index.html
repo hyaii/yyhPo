@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d778b455ac.js" crossorigin="anonymous"></script>    
+    <script src="script/jquery-1.12.3.js"></script>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Voyage</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="top">
+            <h1><a href="index.html"><img src="img/top_logo.png" alt="로고"></a></h1>
+            <!--로고 -->
+
+            <div class="right">
+                <ul class="menu_down">
+                    <li>
+                        <a> <i class="fa-solid fa-earth-americas"></i> KR</a>               
+                        <ul class="sub_menu">
+                            <li>EN</li>
+                            <li>JP</li>
+                            <li>KR</li>
+                            <li>TW</li>
+                        </ul>
+                    </li>                
+                </ul>
+            </div>
+            <!-- 언어설정 -->
+                    
+        </div>
+    </div>
+    <!-- 메뉴 -->
+
+    <div id="slide">
+        <div id="slide_wrapper">
+            <ul>
+                <li><a href="#"><img src="img/배너.png" alt="메인1"> </a></li>
+
+                <li><a href="#"><img src="img/배너_2.png" alt="메인2"> </a></li>
+
+                <li><a href="#"><img src="img/배너_3.png" alt="메인3"> </a></li>
+            </ul>
+        </div>
+
+        <button class="banner_btn">앱 설치하기</button>
+    </div>
+    <!-- 이미지 슬라이드 -->
+
+    <!-- <div class="main">  -->
+        <div class="main_con">
+            <a class="banner_text">인공지능과 함께하는<br>더 편하고 똑똑해진 여행</a>
+         </div> 
+     <!-- </div>  -->
+    <!-- 메인배너 -->
+
+    <section class="section search">
+        <div class="container">
+            <h4 class="search_text1">어디로 떠나고 싶으신가요?</h4>
+
+            <div class="loc">
+                <i class="fa-solid fa-location-dot fa-2x"></i> <!-- 위치 아이콘 -->
+                <input class="loc_search" type="search" placeholder="여행지나 숙소를 검색해보세요">
+            </div>
+            
+            <div class="scd">
+                <i class="fa-solid fa-calendar-days fa-2x"></i> <!-- 달력 아이콘 -->
+                <input class="scd_search1" type="text" placeholder="가는 날 선택 - 오는 날 선택">
+                <i class="fa-solid fa-user fa-2x"></i> <!-- 사람 아이콘 -->
+                <input class="scd_search2" type="text" placeholder="객실1,   성인2">
+            </div>
+
+            <button class="search_btn">검색하기</button>
+        </div>
+    </section>
+    <!-- 1 banner-->
+
+    <section class="section video">
+        <div class="container">
+            <video controls> <source src="video/영상.mp4"> </video>
+            <!-- 비디오삽입 -->
+            <h4 class="video_text">자유로운 나만의 여행, Voyage와 함께 하세요</h4>
+        </div>
+    </section>
+    <!-- 2 video-->
+
+    <section class="section ai">
+        <div class="container">
+            <h3 class="ai_text1">AI 추천</h3><br>
+            <h2 class="ai_text2">" Tri와 함께하는<br>편리한 여행 "</h2><br>
+            <p class="ai_text3">여행 중 계획이 틀어져도 걱정 마세요<br>인공지능 비서 Tri가 언제 어디에서든지<br>당신의 위치를 인식하여 다음 코스를 추천해줍니다</p>
+
+            <img class="ai_img1" src="img/main1.png" alt="메인화면">
+            <img class="ai_img2" src="img/ai기능움짤.gif" alt="aigif" style="border-radius: 55px;">
+        </div>
+    </section>
+    <!-- 3 ai -->
+
+    <section class="section booking">
+        <div class="container booking2">
+            <h3>예약</h3>            
+            <p class="booking_p1">국내 - 국내<br>국내 - 국외<br>국외 - 국외<br>경로 상관없이 항공편을<br>한 번에 비교할 수 있습니다</p>
+            <img class="dash_left" src="img/대쉬_짧_왼.png" alt="">
+            <img class="booking_img1" src="img/항공.png" alt="항공예약화면">
+            <h2>" 당신에게 필요한 모든 예약, <br> 한 번에 완료! "</h2>
+            <p class="booking_p2">VOYAGE에서는<br>항공, 숙소, 렌터카, 유심 등 모든 것을 해결할 수 있습니다<br>여러 사이트를 오가며 예약에 소요되는 시간을 줄이세요</p>
+            <!-- 항공 -->
+            <img class="booking_img2" src="img/숙소.png" alt="숙소예약화면">
+            <img class="dash_right" src="img/대쉬_짧_오.png" alt="">
+            <p class="booking_p3">원하는 숙소의 종류, 날짜와 가격 비교 등<br>궁금한 여행지의 모든 숙소를<br>한 눈에 확인해보세요</p>
+           <img class="booking_img3" src="img/발권완료.png" alt="발권완료창">
+           <img class="booking_img4" src="img/예약확정.png" alt="예약확정창">            
+            <!-- 예약확정 이미지 -->       
+        </div>
+    </section>
+    <!-- 4 예약 -->
+
+    <section class="section cost">
+        <div class="container cost2">
+            <h3>경비</h3>
+            <h2>" 지출 관리는<br>더욱 효과적으로 "</h2>
+            <img class="cost_img1" src="img/가계부1.png" alt="가계부1">
+            <img src="img/가계부2.png" alt="가계부2">
+            <img src="img/가계부3.png" alt="가계부3">
+            <p>쉽고 간편한 환전 기능은 물론,<br>친구와 함께 공유할 수 있는 가계부 기능도 제공합니다</p>
+        </div>
+    </section>
+    <!-- 5 경비 -->
+
+    <section class="section community">
+        <div class="container community2">
+            <h3>커뮤니티</h3>
+            <h2>" 다른 사용자들과 <br> 소통할 수 있는 공간! "</h2>
+            <p>자유롭게 소통하며, 여행지의 새로운 지식과 정보를 습득할 수 있습니다<br>함께 고민하고, 함께 나누어 보세요</p>
+        </div>
+    </section>
+    <!-- 6 커뮤니티 -->
+
+    <section class="section review">
+        <div class="container">
+            <h3>리뷰</h3>
+            <img src="img/리뷰모음.png" alt="리뷰이미지1">
+            <div class="line"></div>
+            <h2>" 사용자들의 후기를 <br> 확인하세요! "</h2>
+            <p>리뷰 기능으로 여행지에 대한<br>다양한 정보를 확인할 수 있습니다<br>다른 여행자들의 경험을 참고하여,<br>당신만의 특별한 여행 계획을 세워보세요</p>
+        </div>
+    </section>
+    <!-- 7 리뷰 -->
+
+    <section class="section more">
+        <div class="container e">
+            <h2>" 오직 Voyage에서만 즐길 수 있습니다 "</h2>
+            <p>나의 위치 기반으로 제공되는<br>날씨, 환율, 번역 등 다양하게 제공되는 정보로<br>더 쉬운 여행을 경험하세요.</p>
+            <br>
+            <button class="btn" onclick="toggleButton(this, 'img/날씨기능수정.png')">날씨</button>
+            <button class="btn" onclick="toggleButton(this, 'img/환율기능.png')">환율</button>
+            <button class="btn" onclick="toggleButton(this, 'img/시차기능.png')">시차</button>
+            <button class="btn" onclick="toggleButton(this, 'img/번역기능.png')">번역</button><br>
+            <img id="img" src="img/날씨기능수정.png" alt="">
+        </div>
+    </section>
+    <!-- 8 부가기능 -->
+
+    <section class="section app">
+        <div class="container">
+            <img class="appimg" src="img/voyage_app.png" alt="app로고"><br>
+            <p>다채로운 여행의 모든 것,<br>여행이 더욱 즐거워집니다</p>
+            <br><a href="https://play.google.com/" class="button google" ><img class="downimg" src="img/google.png" alt="">Google Play</a>
+            <span class="gap"></span>
+            <a href="https://www.apple.com/kr/app-store/" class="button App Store"><img class="downimg" src="img/App-Store_logo.png" alt="">App Store</a>
+        </div>
+    </section>
+    <!-- 9 다운로드 연결 -->
+
+    <button class="arrow-up">        
+        <span class="material-symbols-outlined">
+            ＾
+            </span>
+    </button>
+
+    <footer>
+        <img src="img/top_logo.png" alt="하단로고">
+        <ul>
+            <li>&copy; voyage</li>
+            <li>도움말</li>
+            <li>｜</li>
+            <li>이용약관</li>
+            <li>｜</li>
+            <li>개인정보 처리방침</li>
+            <li>｜</li>
+            <li>청소년 보호 정책</li>
+            <li>｜</li>
+            <li>사업자 정보 확인</li>
+        </ul>
+        <button class="d_icon"><i class="fa-solid fa-download"></i></button>
+        <button class="y_icon"><i class="fa-brands fa-youtube"></i></button>
+        <button class="i_icon"><i class="fa-brands fa-instagram"></i></button>
+        <br>
+        <address>Copyright &copy; 2023 Lorem All rights Rcerved</address>
+    </footer>
+
+
+
+
+<script>
+  function toggleButton(button, imagePath) {
+  const buttons = document.querySelectorAll('.btn');
+  const img = document.getElementById('img');
+
+  buttons.forEach(btn => {
+    if (btn === button) {
+      btn.classList.add('btn-clicked');
+    } else {
+      btn.classList.remove('btn-clicked');
+    }
+  });
+
+  img.src = imagePath;
+};
+
+const arrowUp = document.querySelector('.arrow-up')
+        document.addEventListener('scroll', function() {
+            // console.log(window.scrollY); 스크롤 수치값 확인
+            if(window.scrollY > 300) {
+                arrowUp.classList.add('show');
+            }    else {
+                    arrowUp.classList.remove('show');
+                }
+             })
+
+        const btnarrowUp = document.querySelector('.arrow-up');
+        const sectionarrowUp = document.querySelector('#slide');
+        
+        btnarrowUp.addEventListener('click', function(){
+        sectionarrowUp.scrollIntoView({behavior:"smooth", block:"center"})
+        })
+        // arrow-up
+
+
+</script>
+</body>
+</html> 
